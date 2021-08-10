@@ -38,6 +38,14 @@ header#header {
   background-color: #b3b6a3;
 }
 
+main#main {
+  position: relative;
+}
+
+main#main nav#gnb {
+  width: 160px;
+}
+
 main#main nav#gnb h3 {
   color: #fff;
   font-weight: normal;
@@ -57,7 +65,9 @@ nav#gnb a {
 }
 
 div#contents {
+  width: 300px;
   padding: 10px 8px 12px 6px;
+  margin-left: 160px;
   background-color: #b3b6a3;
 }
 
@@ -78,6 +88,10 @@ div#contents h4 {
 
 div#contents p {
   font-size: 12px;
+}
+
+aside#notice {
+  width: 190px;
 }
 
 aside#notice h2 span {

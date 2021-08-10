@@ -48,6 +48,7 @@ main#main {
 }
 
 #main .tblCell {
+  /* border: 1px solid #000; */
   vertical-align: top;
   display: table-cell;
 }
@@ -99,8 +100,13 @@ div#contents p {
   font-size: 12px;
 }
 
-aside#notice h2 span {
-  text-decoration: underline;
+aside#notice {
+  width: 191px;
+  padding: 6px;
+}
+
+aside#notice div.schedule {
+  margin: 12px 0;
 }
 
 aside#notice h2 span {

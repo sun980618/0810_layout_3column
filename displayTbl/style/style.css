@@ -38,6 +38,25 @@ header#header {
   background-color: #b3b6a3;
 }
 
+/* displat table start */
+main#main {
+  display: table;
+}
+
+#main div.tblRow {
+  display: table-row;
+}
+
+#main .tblCell {
+  vertical-align: top;
+  display: table-cell;
+}
+
+main#main nav#gnb {
+  width: 160px;
+}
+/* displat table end */
+
 main#main nav#gnb h3 {
   color: #fff;
   font-weight: normal;

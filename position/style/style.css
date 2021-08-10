@@ -44,6 +44,10 @@ main#main {
 
 main#main nav#gnb {
   width: 160px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 main#main nav#gnb h3 {
@@ -65,7 +69,7 @@ nav#gnb a {
 }
 
 div#contents {
-  width: 300px;
+  width: 320px;
   padding: 10px 8px 12px 6px;
   margin-left: 160px;
   background-color: #b3b6a3;
@@ -92,10 +96,15 @@ div#contents p {
 
 aside#notice {
   width: 190px;
+  padding: 6px;
+
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-aside#notice h2 span {
-  text-decoration: underline;
+aside#notice div.schedule {
+  margin: 12px 0;
 }
 
 aside#notice h2 span {

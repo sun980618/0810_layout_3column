@@ -38,6 +38,14 @@ header#header {
   background-color: #b3b6a3;
 }
 
+main#main {
+  display: flex;
+}
+
+main#main nav#gnb {
+  width: 190px;
+}
+
 main#main nav#gnb h3 {
   color: #fff;
   font-weight: normal;
@@ -57,6 +65,7 @@ nav#gnb a {
 }
 
 div#contents {
+  flex: 1;
   padding: 10px 8px 12px 6px;
   background-color: #b3b6a3;
 }
@@ -78,6 +87,9 @@ div#contents h4 {
 
 div#contents p {
   font-size: 12px;
+}
+
+aside#notice {
 }
 
 aside#notice h2 span {
